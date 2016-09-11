@@ -1,4 +1,15 @@
 # compuational_physics_N2014301020047
 ##姚媛媛
-##[exercise_02](https://www.zybuluo.com/yyyyao/note/497979)
-##[exercise_03](https://www.zybuluo.com/yyyyao/note/498038)
+##[exercise_02:](https://www.zybuluo.com/yyyyao/note/497979)
+##[exercise_03:](https://www.zybuluo.com/yyyyao/note/498045)
+##[exercise_04:](https://www.zybuluo.com/yyyyao/note/498048)
+##[exercise_05:](https://www.zybuluo.com/yyyyao/note/498053)
+##[exercise_06:](https://www.zybuluo.com/yyyyao/note/498050)
+##[exercise_07:](https://www.zybuluo.com/yyyyao/note/498054)
+##[exercise_08:](https://www.zybuluo.com/yyyyao/note/498061)
+##[exercise_09:](https://www.zybuluo.com/yyyyao/note/498066)
+##[exercise_10:](https://www.zybuluo.com/yyyyao/note/498068)
+##[exercise_11:](https://www.zybuluo.com/yyyyao/note/498073)
+##[exercise_12:](https://www.zybuluo.com/yyyyao/note/498069)
+##[exercise_13:](https://www.zybuluo.com/yyyyao/note/498076)
+##[Final Projiect:](https://www.zybuluo.com/yyyyao/note/498082)
