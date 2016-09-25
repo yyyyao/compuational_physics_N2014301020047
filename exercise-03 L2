@@ -1,0 +1,46 @@
+import os 
+import time 
+l0="       " 
+l1="    ### " 
+l2="   #   # " 
+l3="   #   # " 
+l4="    # # "    
+l5="     #"
+l6="    # #" 
+l7="   #   #" 
+l8="   #   #" 
+l9="    ###"
+a01="  " 
+a02="  " 
+a03="  " 
+a04="  " 
+a05=" ####   #### " 
+a06="#    # #    #" 
+a07="#     #     #" 
+a08="#    # #    #" 
+a09=" ####   ####" 
+a10="  " 
+a11="  " 
+li=[l0,l1,l2,l3,l4,l5,l6,l7,l8,l9] 
+ai[a01,a02,a03,a04,a05,a06,a07,a08,a09,a10,a11] 
+i=os.system('cls') 
+for i in li: 
+    print i 
+time.sleep(2) 
+i=os.system('cls') 
+for i in ai: 
+    print i 
+time.sleep(2) 
+i=os.system('cls') 
+li.reverse() 
+for i in li: 
+    print i 
+time.sleep(2) 
+i=os.system('cls') 
+ai.reverse() 
+for i in ai: 
+    print i 
+time.sleep(2) 
+i=os.system('cls') 
+for i in li: 
+    print i 
