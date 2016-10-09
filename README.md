@@ -2,7 +2,7 @@
 ##姚媛媛
 ##[exercise_02:English name](https://www.zybuluo.com/yyyyao/note/497979)
 ##[exercise_03:make it move](https://www.zybuluo.com/yyyyao/note/498045)
-##[exercise_04:](https://www.zybuluo.com/yyyyao/note/498048)
+##[exercise_04:可衰变原子A和B的相互转换](https://www.zybuluo.com/yyyyao/note/498048)
 ##[exercise_05:](https://www.zybuluo.com/yyyyao/note/498053)
 ##[exercise_06:](https://www.zybuluo.com/yyyyao/note/498050)
 ##[exercise_07:](https://www.zybuluo.com/yyyyao/note/498054)
