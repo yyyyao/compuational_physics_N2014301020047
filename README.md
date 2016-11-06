@@ -5,7 +5,7 @@
 ##[exercise_04:可衰变原子A和B的相互转换](https://www.zybuluo.com/yyyyao/note/498048)
 ##[exercise_05:cannon shell trajectories](https://www.zybuluo.com/yyyyao/note/498053)
 ##[exercise_06:further studies of cannon shell trajectories](https://www.zybuluo.com/yyyyao/note/498050)
-##[exercise_07:construction of the $Poincar\acute e$ sections](https://www.zybuluo.com/yyyyao/note/498054)
+##[exercise_07:construction of the Poincare sections](https://www.zybuluo.com/yyyyao/note/498054)
 ##[exercise_08:](https://www.zybuluo.com/yyyyao/note/498061)
 ##[exercise_09:](https://www.zybuluo.com/yyyyao/note/498066)
 ##[exercise_10:](https://www.zybuluo.com/yyyyao/note/498068)
