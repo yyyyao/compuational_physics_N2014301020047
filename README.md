@@ -7,7 +7,7 @@
 ##[exercise_06:further studies of cannon shell trajectories](https://www.zybuluo.com/yyyyao/note/498050)
 ##[exercise_07:construction of the Poincare sections](https://www.zybuluo.com/yyyyao/note/498054)
 ##[exercise_08:the bifurcation diagrams](https://www.zybuluo.com/yyyyao/note/498061)
-##[exercise_09:study of the behavior for other types of tables](https://www.zybuluo.com/yyyyao/note/498066)
+##[exercise_09:study of the behavior for other types of tables](https://www.zybuluo.com/yyyyao/note/513319)
 ##[exercise_10:](https://www.zybuluo.com/yyyyao/note/498068)
 ##[exercise_11:](https://www.zybuluo.com/yyyyao/note/498073)
 ##[exercise_12:](https://www.zybuluo.com/yyyyao/note/498069)
