@@ -44,3 +44,117 @@ plt.title('trajectory for different initial velocity')
 
 plt.show()
         
+
+
+solar system 3D
+from visual import *
+ 
+def get_v(radius,period):
+    return vector(0,2*pi*radius/period,0)
+
+mercury = sphere(pos=(0.39,0,0),color=color.blue,radius=0.06,make_trail=True)
+venus   = sphere(pos=(0.72,0,0),color=color.yellow,radius=0.06,make_trail=True)
+earth   = sphere(pos=(1,0,0),material=materials.earth,radius=0.06,make_trail=True)
+mars    = sphere(pos=(1.52,0,0),color=color.red,radius=0.06,make_trail=True)
+sun     = sphere(pos=(0,0,0),color=color.orange,material=materials.emissive,radius=0.2,make_trail=True)
+ 
+mercury.velo=get_v(0.39,0.241)
+venus.velo=get_v(0.72,0.615)
+earth.velo=get_v(1,1)
+mars.velo=get_v(1.52,1.88)
+dt=0.002
+while True:
+    rate(200)
+    for p in [mercury,venus,earth,mars]:
+        r=sqrt((p.x)**2+(p.y)**2) 
+        p.velo = p.velo-vector(4*(pi**2)*p.x*dt/(r**3),4*(pi**2)*p.y*dt/(r**3),0)
+        p.pos  = p.pos+(p.velo[0]*dt,p.velo[1]*dt,0)
+ 
+figure 10-3
+import matplotlib.pyplot as plt
+import math
+
+# this function gives trac
+def trac(vxx,vyy):
+    x=[1]
+    y=[0]   
+    vx=[vxx]
+    vy=[vyy]
+    t=[0]
+    dt=0.002
+
+    while t[-1]<=4:
+        r2=(x[-1])**2+(y[-1])**2
+        r=math.sqrt(r2)
+        ox=-4*math.pi*math.pi*x[-1]/(r**3)
+        oy=-4*math.pi*math.pi*y[-1]/(r**3)
+        vx.append(vx[-1]+ox*dt)
+        vy.append(vy[-1]+oy*dt)
+        x.append(x[-1]+vx[-1]*dt)
+        y.append(y[-1]+vy[-1]*dt)
+        t.append(t[-1]+dt)
+
+    return x,y
+
+fig=plt.figure(figsize=[8,8])
+
+x1=trac(math.sqrt(2)*math.pi,math.sqrt(2)*math.pi)[0]
+y1=trac(math.sqrt(2)*math.pi,math.sqrt(2)*math.pi)[1]
+x2=trac(0,2*math.pi)[0]
+y2=trac(0,2*math.pi)[1]
+x3=trac(-math.sqrt(2)*math.pi,math.sqrt(2)*math.pi)[0]
+y3=trac(-math.sqrt(2)*math.pi,math.sqrt(2)*math.pi)[1]
+
+plt.plot(x1,y1,label='theta=45')
+plt.plot(x2,y2,label='theta=90')
+plt.plot(x3,y3,label='theta=135')
+plt.scatter([0],[0],s=1000,color='yellow')
+plt.legend(loc='upper right')
+plt.xlim(-1.5,1.5)
+plt.ylim(-1.5,1.5)
+plt.xlabel('x(AU)')
+plt.ylabel('y(AU)')
+plt.title('trajectory for different initial velocity')
+
+plt.show()
+        
+        
+figure 10-6
+import matplotlib.pyplot as plt
+import math
+
+# this function gives trac
+def trac(vyy):
+    x=[1]
+    y=[0]   
+    vx=[0]
+    vy=[vyy]
+    t=[0]
+    dt=0.002
+
+    while t[-1]<=20:
+        r2=(x[-1])**2+(y[-1])**2
+        r=math.sqrt(r2)
+        ox=-4*math.pi*math.pi*x[-1]/(r**3.1)
+        oy=-4*math.pi*math.pi*y[-1]/(r**3.1)
+        vx.append(vx[-1]+ox*dt)
+        vy.append(vy[-1]+oy*dt)
+        x.append(x[-1]+vx[-1]*dt)
+        y.append(y[-1]+vy[-1]*dt)
+        t.append(t[-1]+dt)
+
+    return x,y
+
+fig=plt.figure(figsize=[8,8])
+
+x1=trac(2.5*math.pi)[0]
+y1=trac(2.5*math.pi)[1]
+plt.plot(x1,y1)
+plt.scatter([0],[0],s=1000,color='yellow')
+plt.xlabel('x(AU)')
+plt.ylabel('y(AU)')
+plt.title('beta=2.1,vy0=2.5pi')
+
+plt.show()
+        
+        
