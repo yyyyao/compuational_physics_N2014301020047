@@ -11,5 +11,5 @@
 ###[exercise_10:Kepler's Law and The Solar System](https://www.zybuluo.com/yyyyao/note/498068)
 ###[exercise_11:the behavior of Hyperion](https://www.zybuluo.com/yyyyao/note/498073)
 ###[exercise_12:the capacitor problem](https://www.zybuluo.com/yyyyao/note/498069)
-###[exercise_13:](https://www.zybuluo.com/yyyyao/note/498076)
+###[exercise_13:waves on a string](https://www.zybuluo.com/yyyyao/note/498076)
 ###[Final Projiect:](https://www.zybuluo.com/yyyyao/note/498082)
