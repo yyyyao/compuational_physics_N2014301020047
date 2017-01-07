@@ -12,4 +12,4 @@
 ###[exercise_11:the behavior of Hyperion](https://www.zybuluo.com/yyyyao/note/498073)
 ###[exercise_12:the capacitor problem](https://www.zybuluo.com/yyyyao/note/498069)
 ###[exercise_13:waves on a string](https://www.zybuluo.com/yyyyao/note/498076)
-###[Final Projiect:](https://www.zybuluo.com/yyyyao/note/498082)
+###[Final Projiect:有限差分法求解一维对流扩散方程](https://www.zybuluo.com/yyyyao/note/498082)
