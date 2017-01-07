@@ -1,0 +1,77 @@
+>$Jacobi$算法：
+
+function x=Jacobi(A,b,N,tol,x0)\\
+n=size(A,1);\\
+if nargin<2 \\
+fprintf('varargin should be at least 2.\n');\\
+elseif nargin==2\\
+N=10000;\\
+tol=1e-10;\\
+x0=zeros(n,1);\\
+elseif nargin==3\\
+tol=1e-5;\\
+x0=zeros(n,1);\\
+else x0=zeros(n,1);\\
+end\\
+L=tril(A,-1);\\
+U=triu(A,1);\\
+D=diag(diag(A));\\
+B=-D\ (L+U);\\
+g=D\b;\\
+k=1;\\
+while k<N\\
+x=B*x0+g;\\
+if norm(x0-x)<tol\\
+disp('The procedure was successful')\\
+fprintf('condition \n',k);\\
+disp('x = ');\\
+disp(x);\\
+break\\
+end\\
+x0=x;\\
+k=k+1;\\
+end\\
+if k>=N\\ 
+fprintf('The procedure falled');\\
+end
+
+
+
+
+>$G-S$迭代算法：
+
+function x=GS(A,b,N,tol,x0)\\
+n=size(A,1);\\
+if nargin<2\\
+fprintf('varagin should be at least 2.\n');\\
+elseif nargin==2\\
+N=10000;\\
+tol=1e-10;\\
+x0=zeros(n,1);\\
+elseif nargin==3\\
+tol=1e-10;\\
+x0=zeros(n,1);\\
+else\\
+x0=zeros(n,1);\\
+end\\
+L=tril(A,-1);\\
+D=diag( diag(A) );\\
+U=A-tril(A);\\
+B=-(D+L)\setminus U;\\
+g=-(D+L)\setminus b;\\
+k=1;\\
+while k<N\\
+x=B*x0+g;\\
+if norm (x-x0)<tol\\
+disp('The procedure was successful')\\
+fprintf('Condition || x ^ {k+1}-x ^ {k}|| < tol was met after diterations.\n',k);\\
+disp('x=');\\
+disp(x);\\
+break\\
+end\\
+x0=x;\\
+k=k+1;\\
+end\\
+if k>=N\\
+fprintf('The procedure failed since it succeed N=\%d iterations.\n',N);\\
+end\\
