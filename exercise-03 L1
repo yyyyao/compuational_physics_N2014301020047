@@ -1,18 +1,18 @@
 import os
 import time
 i=os.system('cls')
-10=" ###    #    #  #  ###   #   #"
-11="#      # #   ## #  #  #   # #"
-12="#     # # #  # ##  #  #    #"
-13=" ###  #   #  #  #  ###     #"
-1=[10,11,12,13]
+l0=" ###    #    #  #  ###   #   #"
+l1="#      # #   ## #  #  #   # #"
+l2="#     # # #  # ##  #  #    #"
+l3=" ###  #   #  #  #  ###     #"
+l=[10,11,12,13]
 b=0
 while b<4:
     b=b+1
-    for i in 1:
+    for i in l:
         print '    '*b+i
     time.sleep(b*0.5)
     i=os.system('cls')
-for i in 1:
+for i in l:
     if b=4
         print i
